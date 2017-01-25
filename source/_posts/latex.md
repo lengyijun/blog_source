@@ -1,7 +1,7 @@
 ---
-title: latex入门
-date: 2016-07-23 18:43:09
-tags:latex atom
+title: latex
+date: 2017-01-25 20:23:46
+tags:
 ---
 
 久闻latex大名，但是一直没有找到好用的latex写作环境，所以用的比较少。不过现在现在有了atom之后，尝试了一下，感觉还是挺舒适的。
