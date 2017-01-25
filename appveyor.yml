@@ -4,11 +4,13 @@ environment:
   access_token:
     secure: LHayD3N9loo7f++CtfXiUq6rgoVXZVTYLw0wZN4ldEl5y8AB9iIyndst6QmTKons
 
-install:
+install:  
+  - git submodule update --init --recursive
   - node --version
   - npm --version
   - npm install
   - npm install hexo-cli -g
+
 
 build_script:
   - hexo generate
