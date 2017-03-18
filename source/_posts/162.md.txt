@@ -1,0 +1,32 @@
+
+
+##without 0:   $ 15^k $
+
+
+
+
+##without 1 :  $ 14*15^{k-1} $
+
+
+
+
+## without 1,a:  $ 13*14^{k-1} $
+
+
+
+
+##without 0,A:  $  14^k $
+
+
+
+
+##without 0,1,A:  $ 13^k $
+
+
+
+
+### note:
+
+if you meet some problems in converting 10-based to 16-based , please use printf command in linux shell
+
+

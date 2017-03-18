@@ -1,0 +1,11 @@
+Pythagorean_triple 勾股数组 的生成
+$a=\dfrac {m^2-n^2}{2}$
+$b=\dfrac {2mn}{2}$
+$a=\dfrac {m^2+n^2}{2}$
+m,n是互素的奇数
+
+
+先打出所有的勾股数组，斜边就不用管了，只用它来控制大小而已
+再打一个dictionary，key是a，value是[b]
+即含有a的数组的另一半的集合
+然后只要遍历一下value即可

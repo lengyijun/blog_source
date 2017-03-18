@@ -1,0 +1,42 @@
+
+                   
+
+n^3 * (1 + p / n) = k^3                                                                                                                                                                                          
+
+
+
+n^3 * (p + n) / n = k^3    
+
+
+
+
+
+n * cuberoot(p + n) / cuberoot(n) = k     
+
+
+
+
+
+If n = u^3 and p + n = v^3, then p = v^3 - u^3 (substitution)    
+
+
+
+
+
+Rewriting the difference of cubes, p = (v - u)(v^2 + uv + u^2)    
+
+
+
+
+
+Since (v - u) is a factor and p is an integer prime number,    
+
+
+
+
+
+(v - u) must be equal to 1, meaning that v and u are consecutive         
+
+Re-substituting this gives the equation p = (u + 1)^3 - u^3    
+
+

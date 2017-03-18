@@ -1,0 +1,28 @@
+$$ p = \dfrac{x^4-y^4}{x^3+y^3} $$
+$$ p = \dfrac{(x^2+y^2)(x-y)}{x^2-xy+y^2} $$
+
+$$ p( x^2-xy+y^2 )=(x-y) (x^2+y^2) $$
+$$ \because  x^2-xy+y^2< x^2+y^2  $$
+$$ \therefore p>x-y $$
+$$  \therefore  p \mid (x^2+y^2) $$
+$$ \therefore (x-y) \mid (x^2-xy+y^2) $$
+$$ \therefore (x-y) \mid xy $$
+
+$$ \therefore (x-y) \mid x^2 $$
+
+$$ \therefore (x-y) \mid y^2 $$
+
+$$ d=x-y $$
+$$ x=(m+1)d $$
+$$ y=md $$
+$$ pd^2((m+1)^2-m(m+1)+m^2)=d(2m^2+2m+1)d^2 $$
+$$ (m^2+m+1)p=d(2m^2+2m+1) $$
+$$ p \mid (2m^2+2m+1)$$
+$$ \dfrac{m^2+m+1}{d}=\dfrac{ 2m^2+2m+1 }{p}= \dfrac{2m^2+2m+2}{2d}=\dfrac{1}{2d-p}=1 $$
+$$ 2d=p+1 $$
+$$ p=2m^2+2m+1 $$
+$$ d=m^2+m+1 $$
+
+
+接下去要遇到大素数的判断。用c++ primesieve的常规方法判断跑了2个小时才跑完 $\dfrac{1}{6}$
+后来用java biginteger 的isprobablyprime 5分钟跑完，结果是$10^7$ 中算错一个
